@@ -11,8 +11,8 @@ public class Aluno {
     private double NtTrab2; //Nota segundo trabalho
     
     //Metodos da classe Aluno
-    public void setRA(int Reg){
-        RA = Reg;
+    public void setRA(int ra){
+        RA = ra;
     }
     
     public void setNtPrv1(double Prv1){
