@@ -9,7 +9,7 @@ public class Aplic {
         int opcao, RA;
         
         //Entradas de dados
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); //A classe scanner utiliza metodos para entrada
         System.out.print("Digite o RA do aluno: ");
         RA = entrada.nextInt();
         System.out.print("Digite a nota da Prova 1: ");
