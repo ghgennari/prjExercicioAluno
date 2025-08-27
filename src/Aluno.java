@@ -4,6 +4,7 @@
  */
 public class Aluno {
     //Atributos da classe aluno
+    //Apesar da modelagem estar com iniciais maiusculas, na programação precisa estar em minusculo
     private int RA; //Registro academico do aluno
     private double NtPrv1; //Nota prova 1
     private double NtPrv2;//Nota prova 2
