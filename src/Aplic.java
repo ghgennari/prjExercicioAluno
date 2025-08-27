@@ -53,6 +53,11 @@ public class Aplic {
                     if(opcao == 3){
                         System.out.println("RA: " + RA);
                         System.out.println("Media final: " + objAluno.calcMediaFinal());
+                        if(objAluno.isAprovado()){
+                            System.out.println("Situação: Aprovado");
+                        }else{
+                            System.out.println("Situação: Reprovado");
+                        }
                     }
                 }
             }

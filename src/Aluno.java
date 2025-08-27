@@ -59,4 +59,8 @@ public class Aluno {
     public double calcMediaFinal(){
         return(calcMediaProva() + calcMediaTrab());
     }
+    
+    public boolean isAprovado(){
+        return (calcMediaFinal()>=5);
+    }
 }
